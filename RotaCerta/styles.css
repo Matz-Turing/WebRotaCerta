@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ffc107;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    width: 55px;
+    max-height: 50px;
+}
+
+header .logo img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero .highlight {
+    color: #ffc107;
+}
+
+.hero .app-preview img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+}
+
+.services h2 {
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.services .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    max-width: 300px;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ffc107;
+}
+
+.service h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.cta {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ffffff;
+    flex-wrap: wrap;
+}
+
+.logo-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.yellow-text {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.social-media {
+    text-align: right;
+    font-weight: bold;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 10px;
+    }
+
+    .services .services-list {
+        flex-direction: column;
+    }
+
+    .services h2 {
+        font-size: 24px;
+    }
+
+    .service {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+}
+
+.buttons img {
+    max-height: 40px;
+    max-width: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.services h2:first-of-type {
+    margin-bottom: 20px;
+}
+
+.services p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.services h2:nth-of-type(2) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.service h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.service p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.service-icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 15px;
+}

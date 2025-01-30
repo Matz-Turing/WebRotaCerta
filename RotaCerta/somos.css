@@ -1,0 +1,188 @@
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title span {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.apollo {
+    color: gold;
+    font-weight: bold;
+}
+
+.solutions-group {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.members {
+    text-align: center;
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.members img {
+    max-width: 80%;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ffc107;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    width: 55px;
+    max-height: 50px;
+}
+
+header .logo img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #ffffff;
+    flex-wrap: wrap;
+}
+
+.logo-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.yellow-text {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.social-media {
+    text-align: right;
+    font-weight: bold;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .title span {
+        font-size: 2em;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .members {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+}
