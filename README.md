@@ -24,27 +24,15 @@ O design do projeto foi criado utilizando a ferramenta **Figma**. A seguir, apre
 
 ### Design do Figma
 
-![Imagem 1](path/to/your/image1.png)
-*Comentário sobre a imagem 1: Esta imagem mostra o layout inicial da página principal, incluindo a disposição da navegação, logotipo e estrutura geral.*
+![Imagem 1](img/2.png)
+*Prototipação do site*
 
-![Imagem 2](path/to/your/image2.png)
-*Comentário sobre a imagem 2: Aqui temos a tela de serviços, onde os itens de serviços são destacados e organizados de forma clara para os usuários.*
+## Screenshot do Site
 
-![Imagem 3](path/to/your/image3.png)
-*Comentário sobre a imagem 3: Prototipação do rodapé com as informações de contato e links para redes sociais.*
+Abaixo esta uma captura de tela do site Apollo Solutions Group, mostrando como ele se apresenta após a implementação.
 
-## Screenshots do Site
-
-Abaixo estão algumas capturas de tela do site Apollo Solutions Group, mostrando como ele se apresenta após a implementação.
-
-![Screenshot 1](path/to/your/screenshot1.png)
-*Comentário sobre a Screenshot 1: A página inicial com a navegação e introdução ao site.*
-
-![Screenshot 2](path/to/your/screenshot2.png)
-*Comentário sobre a Screenshot 2: Seção de serviços, destacando as funcionalidades oferecidas.*
-
-![Screenshot 3](path/to/your/screenshot3.png)
-*Comentário sobre a Screenshot 3: Rodapé com informações de contato e links para redes sociais.*
+![Screenshot 1](img/1.png)
+*A página inicial com a navegação e introdução ao site.*
 
 ## Contribuições
 
@@ -52,5 +40,7 @@ Contribuições são bem-vindas! Se você quiser sugerir melhorias ou adicionar 
 
 ## Créditos
 
-Desenvolvido por Mateus S.  
-GitHub: [Matz-Turing](https://github.com/Matz-Turing)
+Desenvolvido por Mateus S. | Henrique Gonçalves  
+GitHub: [Matz-Turing](https://github.com/Matz-Turing)  
+GitHub: [HenriqueGoncalves22](https://github.com/HenriqueGoncalves22)
+
