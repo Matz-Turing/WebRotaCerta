@@ -16,7 +16,6 @@ Apollo Solutions Group é uma equipe formada em 2024 por seis alunos do curso t�
 ## Tecnologias Utilizadas
 
 - **Frontend**: HTML, CSS (com foco em responsividade)
-- **Backend**: (não especificado, adicione conforme o desenvolvimento)
 - **Ferramentas de design**: Figma (para criação do layout e protótipos)
 
 ## Design
